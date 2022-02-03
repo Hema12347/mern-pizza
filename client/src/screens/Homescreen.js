@@ -22,7 +22,7 @@ export default function Homescreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <div>
+    <div className='home'>
       <Filter />
       <div className="row justify-content-center">
         {loading ? (

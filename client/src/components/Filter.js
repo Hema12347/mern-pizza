@@ -1,8 +1,10 @@
 import React , {useState , useEffect} from 'react'
 import { useDispatch,useSelector} from "react-redux"
 import { filterPizzas } from "../actions/pizzaActions"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default function Filter() {
+    AOS.init()
     const dispatch = useDispatch()
     const [searchkey , setsearchkey] = useState('')
     const [category , setcategory] = useState('all')
@@ -24,7 +26,7 @@ export default function Filter() {
                     </select>
                 </div>
                 <div className='col-md-3 W-100 mt-2'>
-                    <button className='btn w-100' onClick={()=>{dispatch(filterPizzas(searchkey , category))}}>FILTER</button>
+                    <button className='btn w-100' data-aos='fade-down' onClick={()=>{dispatch(filterPizzas(searchkey , category))}}>FILTER</button>
                 </div>
             </div>
         </div>

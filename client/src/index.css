@@ -37,6 +37,7 @@ h1{
   background-color: red !important;
   color: white !important;
   box-shadow: none !important;
+  border-radius: 15px !important;
 }
 select{
   box-shadow: none!important;
@@ -82,14 +83,48 @@ td , th , tr {
   
 }
 .login{
-  background-image: url('./images//bg1.svg');
+  background-image: url('https://i.pinimg.com/originals/d3/6d/46/d36d462db827833805497d9ea78a1343.jpg?fbclid=IwAR0ZfrqScExnjZpAN4xQNonfZrrJE66jFQBZnFwtzMx0CBgHfnNx-lRqrZI');
   background-repeat: no-repeat !important;
   background-size: cover !important;
   height:90vh;
 }
 .register{
-  background-image: url('./images//bg2.svg');
+  background-image: url('https://c0.wallpaperflare.com/preview/839/412/980/food-and-drink-pizza-pizzas-tomato.jpg?fbclid=IwAR3c-8P-WSJOrSUpWTbJYse5XmslRBxLhKHhd-fXWjOrjpeqwa1OEeaMrEA');
   background-repeat: no-repeat !important;
   background-size: cover !important;
   height:90vh;
+}
+.cart-icon{
+  position: relative;
+  margin-right: 20px;
+}
+.icon{
+  background: crimson;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  top:-20px;
+  right: -35px;
+  padding: 5px 7px;
+  font-size: 10px;
+}
+.home {
+  background-image: url('https://www.teahub.io/photos/full/171-1719303_food-pizza-vegetables-baking-wallpaper-1080p-food-images.jpg?fbclid=IwAR0RJijfwwj2HXQlgnA3tzJAcix7Ebj_tEy3tP1JQVnsHFhhqHUtqaHqzYE');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.cart {
+  background-image: url('https://wallpaperaccess.com/full/866650.jpg?fbclid=IwAR1DWaUcPAUJApzcGTHD4fGPYTfX8JyGuDuh_roOmsJGhCVwrhcdJ7Wnq3I');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height:90vh;
+}
+.order {
+  background-image: url('https://ak.picdn.net/shutterstock/videos/1054332767/thumb/9.jpg?fbclid=IwAR3SIGZbNoQNBLjEJ2Tv5OHLx5NKrXvtc55EwQVoo9TMay_dOuB-NbX-2tQ');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height:90vh;
+}
+.header {
+  background-image: linear-gradient(to right top, #75a7f0, #879df6, #a190f5, #bf7fed, #dc69dc);
 }

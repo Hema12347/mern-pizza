@@ -17,11 +17,11 @@ export default function Cartscreen() {
     const dispatch = useDispatch()
 
     return (
-        <div>
+        <div className='cart'>
             <div className='row justify-content-center p-2' data-aos='fade-down'>
                 
                 <div className='col-md-6'>
-                        <h2 style={{fontSize:'40px'}}>My Cart</h2>
+                        <h2 style={{fontSize:'40px'}}><span style={{backgroundColor:'white'}}>My Cart</span></h2>
 
                         {cartItems.map(item=>{
                           return    <div className='flex-container'>
@@ -50,7 +50,7 @@ export default function Cartscreen() {
                 </div>
 
                 <div className='col-md-4 text-end'>
-                    <h2 style={{fontSize:'45px'}}>SubTotal : {subtotal} /-</h2>
+                    <h2 style={{fontSize:'45px'}}><span style={{backgroundColor:'white'}}>SubTotal : {subtotal} /-</span></h2>
                  <Checkout  subtotal={subtotal}/>
                 </div>
             </div>

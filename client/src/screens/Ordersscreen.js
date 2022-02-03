@@ -24,14 +24,14 @@ export default function Ordersscreen() {
 
 
     return (
-        <div>
+        <div className='order'>
             <h2 style={{fontSize:'35px'}}>My Orders</h2>
             <hr/>
             <div className="row justify-content-center" data-aos='fade-down'>
                 {loading && (<Loading />)}
                 {error && (<Error error='Something went wrong'/>)}
                 {orders && orders.map(order=>{
-                    return <div className='col-md-8 m-2 p-1' data-aos='fade-down' style={{backgroundColor:"red" , color:'white'}}>
+                    return <div className='col-md-8 m-2 p-1' data-aos='fade-down' style={{backgroundImage: "linear-gradient(to right top, #87a0ab, #8193a2, #7d8698, #7a798b, #766d7d)" , color:'white'}}>
                         
                         <div className='flex-container'>
 

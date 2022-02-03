@@ -2,6 +2,7 @@
 import React from "react";
 import { logoutUser } from "../actions/userActions";
 import { useSelector, useDispatch } from "react-redux";
+import icon from '../images/icon.svg'
 
 export default function Navbar() {
   const cartstate = useSelector((state) => state.cartReducer);
@@ -10,7 +11,7 @@ export default function Navbar() {
   const  dispatch = useDispatch()
   return (
     <div>
-      <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded ">
+      <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded  header">
         <a className="navbar-brand" href="/">
           DOMINO'S PIZZA
         </a>
@@ -48,7 +49,9 @@ export default function Navbar() {
 
             <li className="nav-item">
               <a className="nav-link" href="/cart">
-                Cart {cartstate.cartItems.length}
+                {/* Cart {cartstate.cartItems.length} */}
+             <span className="icon"> {cartstate.cartItems.length}</span>
+              <img  className="cart-icon" src={icon} alt="" width="30"/>
               </a>
             </li>
           </ul>
