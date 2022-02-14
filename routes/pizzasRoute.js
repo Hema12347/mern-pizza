@@ -23,7 +23,7 @@ router.post("/addpizza",async(req,res)=>{
         varients : ['small','medium','large'],
         description : pizza.description,
         category : pizza.category,
-        prices : [pizza.prices]
+        prices : [pizza.prices],
     })
     await newpizza.save()
     res.send('New Pizza Added Successfully')

@@ -1,4 +1,4 @@
-export const addToCart=(pizza , quantity , varient)=>(dispatch , getState)=>{
+export const addToCart=(pizza , quantity , varient,toppings)=>(dispatch , getState)=>{
 
 
         var cartItem = {
@@ -8,7 +8,8 @@ export const addToCart=(pizza , quantity , varient)=>(dispatch , getState)=>{
             varient : varient ,
             quantity : Number(quantity) ,
             prices : pizza.prices ,
-            price : pizza.prices[0][varient]*quantity
+            price : pizza.prices[0][varient]*quantity,
+            toppings : toppings
         }
 
         if(cartItem.quantity>10)

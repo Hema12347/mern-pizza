@@ -12,8 +12,8 @@ export default function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded  header">
-        <a className="navbar-brand" href="/">
-          DOMINO'S PIZZA
+        <a className="navbar-brand headlogo" href="/">
+          DOMINO'S~PIZZA 
         </a>
         <button
           className="navbar-toggler"

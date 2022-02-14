@@ -32,6 +32,7 @@ h1{
 }
 .flex-container{
   display: flex !important;
+  
 }
 .btn{
   background-color: red !important;
@@ -39,6 +40,13 @@ h1{
   box-shadow: none !important;
   border-radius: 15px !important;
 }
+.add  {
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+
+  
+
 select{
   box-shadow: none!important;
   border: black;
@@ -47,13 +55,16 @@ select{
 .fa-plus{
   color:green;
   margin:5px;
+  cursor:pointer;
 }
 .fa-minus{
   color:red;
   margin:5px;
+  cursor:pointer;
 }
 .fa-trash{
   color:red;
+  cursor:pointer;
 }
 input{
   margin-top: 10px !important;
@@ -87,6 +98,8 @@ td , th , tr {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   height:90vh;
+
+
 }
 .register{
   background-image: url('https://c0.wallpaperflare.com/preview/839/412/980/food-and-drink-pizza-pizzas-tomato.jpg?fbclid=IwAR3c-8P-WSJOrSUpWTbJYse5XmslRBxLhKHhd-fXWjOrjpeqwa1OEeaMrEA');
@@ -112,13 +125,14 @@ td , th , tr {
   background-image: url('https://www.teahub.io/photos/full/171-1719303_food-pizza-vegetables-baking-wallpaper-1080p-food-images.jpg?fbclid=IwAR0RJijfwwj2HXQlgnA3tzJAcix7Ebj_tEy3tP1JQVnsHFhhqHUtqaHqzYE');
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  height:180vh;
 }
-.cart {
-  background-image: url('https://wallpaperaccess.com/full/866650.jpg?fbclid=IwAR1DWaUcPAUJApzcGTHD4fGPYTfX8JyGuDuh_roOmsJGhCVwrhcdJ7Wnq3I');
+/* .cart {
+  background-image : url('https://makebackground.io/f6533b0b-cf2b-46ea-905f-f32eabaffb07');
   background-repeat: no-repeat !important;
   background-size: cover !important;
   height:90vh;
-}
+} */
 .order {
   background-image: url('https://ak.picdn.net/shutterstock/videos/1054332767/thumb/9.jpg?fbclid=IwAR3SIGZbNoQNBLjEJ2Tv5OHLx5NKrXvtc55EwQVoo9TMay_dOuB-NbX-2tQ');
   background-repeat: no-repeat !important;
@@ -128,3 +142,56 @@ td , th , tr {
 .header {
   background-image: linear-gradient(to right top, #75a7f0, #879df6, #a190f5, #bf7fed, #dc69dc);
 }
+.cart{
+  background-image: url('https://st.depositphotos.com/1221156/2300/i/950/depositphotos_23005818-stock-photo-chef-holding-a-pizza.jpg');
+  background-repeat: no-repeat !important;
+ background-size: cover;
+ height:90vh;
+}
+.cartscreen {
+  
+    background-image: url('http://hcssi.org/wp-content/uploads/2013/12/light-gray-textured-solid.jpg');
+    background-repeat: no-repeat !important;
+   background-size: cover;
+  
+ 
+}
+.loginbutton {
+  
+  /* width: 350px; */
+  /* height:50px; */
+  /* border-radius:25px; */
+  /* background-color: #a190f5 !important; */
+ /* background-image: linear-gradient(to right, #051632, #3b1e57, #820261, #c4004b, #eb1212);*/
+  background-image: linear-gradient(to right, #c91ef9, #f040ce, #f96db2, #f096ab, #d8bbbb);
+ 
+  /* color: red!important; */
+}
+.registerbutton {
+  /* background-color: #B0A8B9!important; */
+  /* background-image: linear-gradient(to right, #051632, #3b1e57, #820261, #c4004b, #eb1212); */
+  background-image: linear-gradient(to right, #c91ef9, #f040ce, #f96db2, #f096ab, #d8bbbb);
+}
+.headlogin {
+  /* color: rosybrown; */
+  /* color: #f096ab; */
+  color: #f96db2;
+}
+.headregister{
+  color:#dc69dc
+}
+.headlogo {
+  color: #92FE9D!important;
+  /* color: #CD3F2C !important; */
+}
+/* .pay:hover{
+  color:#bf7fed
+} */
+.filter {
+  /* background-color: #a190f5!important; */
+  /* background-image: linear-gradient(to right bottom, #f91126, #c30b7b, #5b418d, #043d5f, #222627); */
+  background-image: linear-gradient(to left bottom, #f91126, #e2393d, #c84d4f, #aa5c5d, #896667);
+}
+
+
+

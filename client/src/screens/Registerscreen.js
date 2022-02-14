@@ -43,22 +43,25 @@ function register(){
         {success && (<Success success='User Registered Successfully'/>)}
         {error && (<Error error='User already registered'/>)}
 
-          <h2 className="text-center m-2" style={{ fontSize: "35px" }}>
+          <h2 className="text-center m-2 headregister" style={{ fontSize: "35px" }}>
             REGISTER
           </h2>
           <div>
             <input required type="text" placeholder="name" className="form-control"   
             value={name}
+            style={{backgroundColor:'#FF8066'}}
               onChange={(e)=>{setname(e.target.value)}}
               />
             <input required type="text" placeholder="email" className="form-control" 
              value={email}
+             style={{backgroundColor:'#B0A8B9'}}
               onChange={(e)=>{setemail(e.target.value)}}
                />
             <input
               type="password"
               placeholder="password"
               className="form-control"
+              style={{backgroundColor:'#FF8066'}}
               value={password}
               required
               onChange={(e)=>{setpassword(e.target.value)}}
@@ -67,11 +70,12 @@ function register(){
               type="password"
               placeholder="confirm password"
               className="form-control"
+              style={{backgroundColor:'#B0A8B9'}}
               value={cpassword}
               required
               onChange={(e)=>{setcpassword(e.target.value)}}
             />
-            <button  onClick={register}className="btn mt-3 mb-3">REGISTER</button>
+            <button  onClick={register}className="btn mt-3 mb-3 registerbutton" style={{backgroundColor:'#B0A8B9'}}>REGISTER</button>
             <br/>
             <a style={{color:'black'}} href="/login">Click Here To Login</a>
           </div>

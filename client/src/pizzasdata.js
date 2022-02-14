@@ -3,6 +3,7 @@ const pizzas =
   {
     name: "PEPPER BARBECUE CHICKEN",
     varients: ["small", "medium", "large"],
+    toppings: ["cheese", "garlic", "paneer"],
     prices: [
       {
         small: 200,
@@ -11,12 +12,14 @@ const pizzas =
       },
     ],
     category: "nonveg",
+    extra:"double ingredients",
     image: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
     description: "Pepper Barbecue Chicken I Cheese",
   },
   {
     name: "Non Veg Supreme",
     varients: ["small", "medium", "large"],
+    toppings: ["cheese", "garlic", "paneer"],
     prices: [
       {
         small: 200,
@@ -32,6 +35,7 @@ const pizzas =
   {
     name: "Golden Corn Pizza",
     varients: ["small", "medium", "large"],
+    toppings: ["cheese", "garlic", "paneer"],
     prices: [
       {
         small: 180,
@@ -40,6 +44,7 @@ const pizzas =
       },
     ],
     category: "veg",
+    
     description:
       "Corn over the base makes it look beautiful. It is served with tomato sauce and chili flakes are sprinkled over the topping according the taste. After mixing all the ingredients, it is baked by adding cheese and corn for added flavor to pizza. Corn adds health and sweet taste to the pizza.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV0sC_V4kbijBlbJFgyunYwAZ1LWl1LYNvvA&usqp=CAU",
@@ -47,6 +52,7 @@ const pizzas =
   {
     name: "Jalapeno & Red Paprika Pizza",
     varients: ["small", "medium", "large"],
+    toppings: ["cheese", "garlic", "paneer"],
     prices: [
       {
         small: 200,
@@ -55,6 +61,7 @@ const pizzas =
       },
     ],
     category: "veg",
+    
     image: "https://image.shutterstock.com/image-photo/mexican-pizza-meat-jalapeno-260nw-1037760859.jpg",
     description:
       "This pizza is amazing and can become more delicious if we will add some more cheese in it. Ingredients are yeast, sugar, olive oil, salt, and all-purpose flour in a big bowl. After mixing all the ingredients, it is baked by adding Jalapeno and Paprika with corns over the cheese layer. The base is made crunchy to give it best taste. It can be made more tasty by sprinkling chili flakes and Oregano as per the taste.",
@@ -62,6 +69,7 @@ const pizzas =
   {
     name: "Margerita",
     varients: ["small", "medium", "large"],
+    toppings: ["cheese", "garlic", "paneer"],
     prices: [
       {
         small: 150,
@@ -70,6 +78,7 @@ const pizzas =
       },
     ],
     category: "veg",
+    
     image:
       "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza-500x500.jpg",
     description:
@@ -78,6 +87,7 @@ const pizzas =
   {
     name: "Double Cheese Margherita Pizza",
     varients: ["small", "medium", "large"],
+    toppings: ["cheese", "garlic", "paneer"],
     prices: [
       {
         small: 250,
@@ -86,6 +96,7 @@ const pizzas =
       },
     ],
     category: "veg",
+    extra:"spicy sauce",
     image: "https://www.dominos.co.in//files/items/Double_Cheese_Margherita.jpg",
     description:
       "This is a plain pizza which have cheese on it which is margherita and is delicious because of the loads of cheese. After mixing all the ingredients, it is baked by adding the cheese as topping over it. The base is perfectly prepared by adding double layer of cheese over it",

@@ -32,7 +32,7 @@ export default function Checkout({subtotal}) {
             currency='INR'
             >
 
-                <button className='btn'>Pay Now</button>
+                <button className='btn  pay'>Place Order</button>
 
             </StripeCheckout>
 
